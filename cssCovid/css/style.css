@@ -1,0 +1,172 @@
+body {
+  background: #f3f3f3;
+}
+
+h3 {
+  font-family: 'Red Hat Display', sans-serif;
+  justify-content: flex-end;
+  text-transform: capitalize;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h3:hover {
+  color: #fee6e5;
+}
+
+.hovers{
+  display: flex;
+  justify-content: flex-end;
+}
+.main {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.text {
+  font-family: 'Red Hat Display', sans-serif;
+  width: 50%;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.blockas1 {
+  background-color: white;
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 5%;
+  padding: 10px;
+  margin: 20px 10px;
+  border: 1px gray;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.blockas2 {
+  background-color: white;
+  width: 70%;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 5%;
+  padding: 10px;
+  margin: 20px 10px;
+  border: 1px gray;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blockas3, .blockas5 {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 20px 10px;
+    border: 1px gray;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: space-around;
+  }
+
+.blockas4 {
+  text-align: center;
+  justify-content: center;
+}
+
+p {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+.grid p {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.grid h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+.item1, .item2, .item3 {
+  background-color: white;
+  width: 300px;
+  border-radius: 5%;
+  grid-row-start: 3;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  box-shadow: 0 4px 2px -2px red;
+}
+
+.air, .contained, .human {
+  width: 100px;
+  margin: 20px;
+}
+
+.symptoms {
+  width: 600px;
+}
+
+.picture {
+  float: right;
+
+}
+
+.picture1 {
+  width: 400px;
+}
+
+.picture2 {
+  width: 300px;
+}
+
+h2 {
+  font-family: 'Red Hat Display', sans-serif;
+  color: #fb4c47;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+h1 {
+  font-family: 'Red Hat Display', sans-serif;
+  color: #035755;
+  text-transform: capitalize;
+}
+
+button {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+  color: white;
+  height: 40px;
+  width: 150px;
+  border-radius: 35%;
+  background-color: red;
+  border: 1px gray;
+  text-transform: capitalize;
+}
+
+button:hover {
+  background-color: #8b0000;
+}
